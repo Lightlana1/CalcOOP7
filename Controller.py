@@ -3,7 +3,7 @@ import model_operation as model
 import logger as log
 
 def click_button():
-    value = int(input('Введите 1 - для операций с комплексными числами, 2 - для операций с рациональными числами: '))
+    value = int(input('Введите: \n1 - для операций с комплексными числами, \n2 - для операций с рациональными числами: '))
     if value == 1:
         value_a = dp.input_comlex()
         value_b = dp.input_comlex()
